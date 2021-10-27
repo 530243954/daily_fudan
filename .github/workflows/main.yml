@@ -46,4 +46,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install lxml
           pip install requests
-          python3 ./dailyFudan.py '${{ secrets.FUDANSUXIAOHE }}'
+          python3 daily_fudan/dailyFudan.py '${{ secrets.FUDANSUXIAOHE }}'
